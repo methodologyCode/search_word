@@ -14,7 +14,7 @@ async function request(word) {
 
     try {
         const response = await fetch(url)
-        let result = await response.json()
+        const result = await response.json()
         infoText.style.display = "none";
         meaningContainer.style.display = "block";
         title.innerText = result[0].word;
