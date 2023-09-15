@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 90%;
+    max-width: 450px;
+    margin: 10px;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+}
+
+.input {
+    width: 300px;
+    height: 50px;
+    padding: 0 42px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, .6);
+    border-color: rgba(255, 255, 255, .4);
+    border-radius: 5px;
+}
+
+.input:hover {
+    outline: none;
+}
+
+.meaning-container {
+    display: none;
+}
